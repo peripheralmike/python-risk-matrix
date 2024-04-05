@@ -38,7 +38,7 @@ Matrix Titles and Labels: Customize the plot title and axis labels to better fit
 
 ## Visualization Example
 
-![Diagram](Firgure_2.png "Example")
+![Diagram](Figure_2.png "Example")
 
 License
 This project is made available under the MIT License. Feel free to use, modify, and distribute as needed with attribution.
