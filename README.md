@@ -1,23 +1,49 @@
 # Risk Matrix Visualization Tool
 
-This Python script generates a visual risk matrix for evaluating various risks based on their impact and probability. It uses matplotlib for plotting and provides a clear, color-coded severity level indication.
+This Python script offers a straightforward method to visualize risk assessments by plotting risks on a 2D matrix according to their impact (severity) and probability (likelihood) of occurrence. Utilizing matplotlib for graphing, it creates an intuitive, color-coded severity level chart for easy interpretation of different risks.
 
-## Features
+## Key Features
 
-- Maps out risks on a 2D matrix based on their impact (severity) and probability (likelihood).
-- Uses unique icons to represent different risks for easy identification.
-- Applies color-coding to distinguish between low, medium, and high severity levels.
+- **Risk Mapping**: Plots risks on a matrix based on impact and probability.
+- **Unique Icons**: Differentiates risks using unique icons for quick identification.
+- **Severity Levels**: Applies color-coding to visually distinguish between low, medium, and high severity levels.
 
-## Requirements
+## Prerequisites
 
-- Python (or python 3)
-- matplotlib
+To run this script, ensure you have the following installed:
+- Python 3.x
+- matplotlib library
 
 ## Installation
 
-Ensure Python 3 and pip are installed on your system.
+First, verify that Python 3 and pip are installed on your system. Then, install matplotlib using pip with the following command:
 
-Install matplotlib using pip:
+'''
+pip install matplotlib
+'''
 
-```bash
-pip  (or pip3) install matplotlib
+How to Use
+Execute the script with Python to view the risk matrix:
+
+'''bash
+python risk_matrix_visualization.py
+Upon running, the script will display a risk matrix with predefined risks. These can be tailored to your specific needs by modifying the risks and icons dictionaries within the script.
+
+Customization Guide
+To adapt the script to your scenario:
+
+Risks: Amend the risks dictionary to include your specific risks, adjusting their impact and probability values as necessary.
+Icons: Alter the icons dictionary if you wish to represent risks with different symbols.
+Matrix Titles and Labels: Customize the plot title and axis labels to better fit your context.
+
+Visualization Example
+
+Note: Replace path/to/your/image.png with the actual path to your risk matrix image.
+
+License
+This project is made available under the MIT License. Feel free to use, modify, and distribute as needed with attribution.
+
+
+
+
+
