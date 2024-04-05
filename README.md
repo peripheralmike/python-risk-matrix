@@ -18,15 +18,15 @@ To run this script, ensure you have the following installed:
 
 First, verify that Python 3 and pip are installed on your system. Then, install matplotlib using pip with the following command:
 
-'''bash
+```bash
 pip install matplotlib
-
+```
 ## How to Use
 Execute the script with Python to view the risk matrix:
 
-'''bash
+```bash
 python risk_matrix_visualization.py
-
+```
 Upon running, the script will display a risk matrix with predefined risks. These can be tailored to your specific needs by modifying the risks and icons dictionaries within the script.
 
 ## Customization Guide
@@ -38,7 +38,7 @@ Matrix Titles and Labels: Customize the plot title and axis labels to better fit
 
 ## Visualization Example
 
-![Visualisation](https://imgur.com/a/BiczlyY)
+![Diagram](Firgure_2.png "Example")
 
 License
 This project is made available under the MIT License. Feel free to use, modify, and distribute as needed with attribution.
