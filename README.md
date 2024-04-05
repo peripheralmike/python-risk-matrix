@@ -18,27 +18,27 @@ To run this script, ensure you have the following installed:
 
 First, verify that Python 3 and pip are installed on your system. Then, install matplotlib using pip with the following command:
 
-'''
+'''bash
 pip install matplotlib
-'''
 
-How to Use
+## How to Use
 Execute the script with Python to view the risk matrix:
 
 '''bash
 python risk_matrix_visualization.py
+
 Upon running, the script will display a risk matrix with predefined risks. These can be tailored to your specific needs by modifying the risks and icons dictionaries within the script.
 
-Customization Guide
+## Customization Guide
 To adapt the script to your scenario:
 
 Risks: Amend the risks dictionary to include your specific risks, adjusting their impact and probability values as necessary.
 Icons: Alter the icons dictionary if you wish to represent risks with different symbols.
 Matrix Titles and Labels: Customize the plot title and axis labels to better fit your context.
 
-Visualization Example
+## Visualization Example
 
-Note: Replace path/to/your/image.png with the actual path to your risk matrix image.
+![Visualisation](https://imgur.com/a/BiczlyY)
 
 License
 This project is made available under the MIT License. Feel free to use, modify, and distribute as needed with attribution.
